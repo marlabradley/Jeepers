@@ -1,0 +1,44 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.jeepersinc\.com$ [NC]
+RewriteRule ^(.*)$ https://www.jeepersinc.com/$1 [R=301,L]
+
+ErrorDocument 400 https://jeepersinc.com/error.htm
+
+ErrorDocument 401 https://jeepersinc.com/error.htm
+
+ErrorDocument 403 https://jeepersinc.com/error.htm
+
+ErrorDocument 404 https://jeepersinc.com/error-file-not-found.htm
+ErrorDocument 405 https://jeepersinc.com/error.htm
+
+ErrorDocument 406 https://jeepersinc.com/error.htm
+
+ErrorDocument 407 https://jeepersinc.com/error.htm
+
+ErrorDocument 408 https://jeepersinc.com/error.htm
+
+ErrorDocument 409 https://jeepersinc.com/error.htm
+
+ErrorDocument 410 https://jeepersinc.com/error.htm
+
+ErrorDocument 411 https://jeepersinc.com/error.htm
+
+ErrorDocument 412 https://jeepersinc.com/error.htm
+
+ErrorDocument 413 https://jeepersinc.com/error.htm
+
+ErrorDocument 414 https://jeepersinc.com/error.htm
+
+ErrorDocument 415 https://jeepersinc.com/error.htm
+
+ErrorDocument 500 https://jeepersinc.com/error.htm
+
+ErrorDocument 501 https://jeepersinc.com/error.htm
+
+ErrorDocument 502 https://jeepersinc.com/error.htm
+
+ErrorDocument 503 https://jeepersinc.com/error.htm
+
+ErrorDocument 504 https://jeepersinc.com/error.htm
+
+ErrorDocument 505 https://jeepersinc.com/error.htm
