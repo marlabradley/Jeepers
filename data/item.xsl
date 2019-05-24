@@ -7,7 +7,7 @@
 	<xsl:param name="SUBMODELID" select="default" />
 	<xsl:param name="PARTNUM" select="default" />
 	<xsl:template match="/">
-		<xsl:apply-templates select="ACES/App[(BaseVehicle/@id = $BASEVID) and (SubModel/@id = $SUBMODELID)and (Part = $PARTNUM) and (Region/@id = 2)]" />
+		<xsl:apply-templates select="ACES/App[(BaseVehicle/@id = $BASEVID) and (SubModel/@id = $SUBMODELID) and (Part = $PARTNUM) and (Region/@id = 2)]" />
 	</xsl:template>
 	<xsl:template match="App">
         <xsl:element name="tr">

@@ -22,10 +22,6 @@
         <xsl:variable name="PARTNUM" select="Part" />
         <xsl:for-each select="document('sdc/Poison-Spyder-PIES.xml')/pi:PIES/pi:Items/pi:Item[pi:PartNumber=$PARTNUM]">
             <xsl:element name="td">
-                <xsl:element name="a">
-                    <xsl:attribute name="target">_blank</xsl:attribute>
-                    <xsl:attribute name="href">/data/item.php?partNumber=<xsl:value-of select="pi:PartNumber"/>&amp;base=<xsl:value-of select="$BASEVID"/>&amp;sub=<xsl:value-of select="$SUBMODELID"/>
-                    </xsl:attribute>
                     <xsl:element name="div">
                         <xsl:attribute name="class">image</xsl:attribute>
                         <xsl:for-each select="pi:DigitalAssets">
@@ -75,7 +71,11 @@
                             </xsl:for-each>
                         </xsl:for-each>
                     </xsl:element>
-                </xsl:element>
+                    <xsl:element name="input">
+                        <xsl:attribute name="type">button</xsl:attribute>
+                        <xsl:attribute name="value">View Item</xsl:attribute>
+                        <xsl:attribute name="onclick">window.location.href = '/data/item.php?partNumber=<xsl:value-of select="pi:PartNumber"/>&amp;base=<xsl:value-of select="$BASEVID"/>&amp;sub=<xsl:value-of select="$SUBMODELID"/>'</xsl:attribute>
+                    </xsl:element>
             </xsl:element>
         </xsl:for-each>
     </xsl:element>
@@ -83,8 +83,4 @@
 <xsl:template match="Footer">
     <xsl:element name="br"/>
 </xsl:template>
-<!-- <xsl:template match="pi:Item"><xsl:element name="td"><xsl:attribute name="align">center</xsl:attribute><xsl:attribute name="valign">bottom</xsl:attribute><xsl:for-each select="pi:DigitalAssets"><xsl:for-each select="pi:DigitalFileInformation"><xsl:if test="(pi:FileType = 'PNG')"><xsl:element name="IMG"><xsl:attribute name="src">sdc/Poison-Spyder-Digital-Assets-PIES/
-
-                                <xsl:value-of select="pi:FileName"/></xsl:attribute><xsl:attribute name="title"><xsl:for-each select="pi:AssetDescriptions"><xsl:value-of select="pi:Description"/></xsl:for-each></xsl:attribute ><xsl:attribute name="width">225</xsl:attribute></xsl:element></xsl:if></xsl:for-each></xsl:for-each><xsl:element name="br"/><xsl:for-each select="pi:Prices"><xsl:for-each select="pi:Pricing"><xsl:if test="(@PriceType = 'LST')">
-                        $<xsl:variable name="number"><xsl:value-of select="pi:Price"/></xsl:variable><xsl:value-of select="format-number($number,'#.##')"/></xsl:if></xsl:for-each></xsl:for-each><xsl:element name="br"/><xsl:element name="br"/><span class="pies-text"><xsl:value-of select="pi:PartNumber"/></span><xsl:for-each select="pi:Descriptions"><xsl:for-each select="pi:Description"><xsl:if test="(@DescriptionCode = 'DES')"><xsl:value-of select="."/></xsl:if></xsl:for-each></xsl:for-each></xsl:element></xsl:template> -->
 </xsl:stylesheet>
