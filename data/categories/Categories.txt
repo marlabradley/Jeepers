@@ -1,0 +1,24 @@
+CategoryID|CategoryName
+1|Accessories and Fluids
+2|Body
+3|Brake
+4|Belts and Cooling
+5|Driveline and Axles
+6|Electrical, Charging and Starting
+7|Electrical, Lighting and Body
+9|Emission Control
+10|Engine
+11|Exhaust
+12|Air and Fuel Delivery
+13|HVAC
+14|Ignition
+15|Steering
+16|Suspension
+17|Tire and Wheel
+18|Tools and Equipment
+19|Transfer Case
+20|Transmission
+22|Wiper and Washer
+23|Hardware and Service Supplies
+29|Multifunction Terms
+42|Entertainment and Telematics

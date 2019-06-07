@@ -1,0 +1,211 @@
+SubCategoryID|SubCategoryName
+101|ABS Components
+102|A/C Accumulator / Receiver Drier
+103|A/C Clutch and Compressor
+104|A/C Condenser and Evaporator
+106|Aero Ground Effects and Body Kits
+107|Air Bag System
+108|Air Injection System
+109|Air Tools
+110|Alternator / Generator and Related Components
+111|Anti-Theft System
+112|Appearance Products
+115|Axle Shaft
+116|Battery and Related Components
+118|Body Wiring Harness and Components
+119|Body, Frame and Paint Equipment
+120|Brackets, Flanges and Hangers
+122|Brake Hydraulics
+123|Bumper
+125|Carburetion
+126|Catalytic Converter
+127|Clamps
+128|Clutch Plates
+129|Console
+130|Control Cables
+131|Control Modules
+132|Cooling Fan, Clutch and Motor
+133|Cowl
+134|Crankcase Ventilation System
+135|Cruise Control System
+136|Cylinder Block Components
+137|Differential
+138|Disc Pads and Brake Shoes
+139|Doors
+140|Drive Shaft
+141|Drums and Rotors
+142|EGR and Related Components
+143|Electrical Connectors
+144|Electrical Sockets
+145|Electronic Accessories
+147|Engine Service
+148|Evaporative System
+149|Exhaust and Tail Pipes
+150|Exhaust Manifolds
+151|Exhaust System Service
+152|Fenders
+153|Filters
+154|Flasher Units, Fuses, and Circuit Breakers
+155|Flexplate
+156|Floor
+157|Flywheel
+158|Frame
+159|Front Panel
+160|Fuel Injection System and Related Components
+161|Fuel Pumps and Related Components
+162|Fuel Storage
+163|Fuel System Service
+164|Functional Fluid, Lubricant, Grease (including Additives)
+165|Gaskets and Sealing Systems
+166|Glass, Windows and Related Components
+167|Glove Box
+168|Graphics
+169|Grille
+170|Hand Tools
+171|Heater Control Valve and Related Components
+173|Heater Switches and Electrical Components
+174|Hoist, Lift and Support
+175|Hood
+177|Hoses and Pipes
+178|Instrument Panel
+179|Interior
+180|Lighting - Exterior
+181|Lighting - Instrumentation
+182|Lighting - Interior
+183|Manual Transmission Components
+184|Mirrors
+185|Mobile Multi-media
+186|Motors
+187|Mufflers
+188|Power Outlets
+189|Power Steering Hoses, Pumps, and Related Components
+190|Primary Ignition
+191|PTO and Components
+192|Quarter Panel
+193|Radiators, Coolers and Related Components
+194|Rear Body
+195|Relays
+196|Resistors
+197|Rocker Panel
+198|Roof
+199|Seats
+200|Secondary Ignition
+201|Sending Units
+202|Sensors
+203|Shocks and Struts
+204|Side Pillar
+205|Spare Tire and Wheel
+206|Starter and Related Components
+207|Steering Column
+208|Steering Wheel
+210|Suspension, Springs and Related Components
+211|Switches
+212|Tailgate
+214|Tire
+215|Towing
+216|Transmission Bands
+217|Transmission Bushings
+219|Transmission Hard Parts
+220|Transmission Valve Body
+221|Transfer Case Components
+222|Truck Box
+223|Truck Cab
+224|Trunk Lid and Compartment
+225|Turbocharger, Supercharger and Ram Air
+226|Vacuum System
+227|Valve Train Components
+228|Valves
+229|Voltage Regulator
+230|Warning Buzzers
+231|Water Pump and Related Components
+233|Wheel
+234|Wheel Bearings, Seals, and Related Components
+235|Windshield Washer and Related Components
+236|Windshield Wiper Arm, Blade, and Related Components
+237|Windshield Wiper Motor
+238|Windshield Wiper and Washer Sensors
+240|Wire, Cable and Related Components
+242|Fasteners
+243|Tubing
+244|Ignition Wire and Related Components
+246|Hardware
+247|Automatic Transmission Components
+248|Brake System Service
+249|Shop Equipment
+250|Books
+251|Emblems
+252|Hatch
+253|Vacuum Power System
+254|CV Components
+255|Water System Service
+258|Safety Products
+259|Cleaning Products
+260|Clothing
+261|Signs and Posters
+262|Wax and Polish
+263|Miscellaneous Merchandise
+264|Battery Service
+265|Power Tools
+266|Nitrous Oxide Injection System
+267|Software
+268|Tire Service
+269|Plating Products
+270|Furniture
+271|Jewelry
+272|Raw Materials
+273|Handlebar
+275|Chassis and Suspension Service
+276|Honing Equipment
+277|Pit Equipment
+279|Water Injection System and Components
+282|Emission Components
+283|Universal
+284|Transmission Service
+285|Air Heater Components
+286|Fittings
+287|Door Wiper Arm, Blade, and Related Components
+288|A/C Service
+289|Side Body
+290|Adhesives
+292|Carbon Dioxide Injection System
+294|Hydraulic System Service
+297|Differential Service
+299|Van Storage
+301|Driveline
+303|Accessory Drive Belt System Components
+304|Drive Chain and Belt Components
+305|Automatic Dual Clutch Transmission Components
+307|Concrete and Asphalt Products
+308|Undercar
+309|Underhood
+311|Information Labels
+312|Back Glass Wiper Arm, Blade, and Related Components
+315|Service Kits
+316|Steering, Gear and Related Components
+317|Bearings
+318|Motors, Core, Case and Related Components
+319|Temperature Controls and Related Components
+320|A/C Flow Restrictors
+322|Distributor and Magneto
+323|Ignition Coil
+324|Alignment
+328|Assortments
+330|Lawn Equipment Service
+337|Cooling System Service
+339|RV and Marine Accessories
+340|Displays and Merchandisers
+343|Horns
+344|Ignition Service
+345|Power Steering Service
+346|Welding Equipment
+347|Winch
+356|Body Actuators and Motors
+357|Dashboard
+359|Telematics Systems and Components
+376|Thermostat and Housing
+391|Front Body
+392|CV Boots and Related Components
+393|Hubs and Related Components
+436|Waste Disposal Equipment
+437|Powersport Accessories
+438|Pest Control
